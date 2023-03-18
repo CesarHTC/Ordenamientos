@@ -7,7 +7,7 @@
 import random
 numeros_aleatorios = [random.randint(1,50) for i in range(20)]
 print("La lista desordenada es:", numeros_aleatorios)
-
+#comenzamos por el segundo elemento (índice 1), ya que el primer elemento (índice 0) no necesita ser comparado con ningún elemento anterior
 for i in range(1, len(numeros_aleatorios)):
     # Guardamos el valor del elemento actual de la lista
     valor_actual = numeros_aleatorios[i]
